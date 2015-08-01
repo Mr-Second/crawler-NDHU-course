@@ -7,7 +7,7 @@ class NdhuCourseCrawler
 
     DAYS = { "一" => 1,"二" => 2,"三" => 3, "四" => 4, "五" => 5, "六" => 6,"日" => 7,}
 
-  def initialize  year: nil, term: nil#, update_progress: nil, after_each: nil # initialize 94建構子
+  def initialize  year: nil, term: nil, update_progress: nil, after_each: nil # initialize 94建構子
     @year = year
     @term = term
     @query_url = "http://sys.ndhu.edu.tw/aa/class/course/Default.aspx"
