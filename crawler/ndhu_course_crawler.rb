@@ -14,7 +14,7 @@ class NdhuCourseCrawler
     # @ic = Iconv.new('utf-8//translit//IGNORE', 'big-5')
     #@result_url = "https://web085003.adm.ncyu.edu.tw/pub_depta2.aspx"
 
-    @after_each_proc = after_each_proc
+    @after_each_proc = after_each
     @update_progress_proc = update_progress
   end
 
